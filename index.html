@@ -294,7 +294,7 @@
         /*------------------------------FRONT PAGE PHOTO--------------------------*/
         .frontPhoto{
             position: relative;
-            width:auto;
+            width:100%;
         }
 
         .frontPhoto img{
@@ -344,7 +344,7 @@
         .featuredBox{
             width: 90%;
             border-style: solid;
-            height: 300PX;
+            height: 350PX;
             margin:auto;
             align-items: center;
             border-color: #555;
@@ -373,6 +373,26 @@
             margin-top: 70px;
             align-items: center;
 
+        }
+
+        .featuredQuizButton{
+            color: black;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            margin: auto;
+            font-family:"Playfair Display";
+            font-size: 40px;
+
+            background-color: rgb(211, 229, 255);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            width: 25%;
+        }
+
+        .featuredQuizButton:hover {
+        background-color: #fdfdfd;
         }
 
     </style>
@@ -476,8 +496,12 @@
         <div class = "featuredBox">
             <h3 class = "featuredTextSubtitle">DON'T KNOW WHERE TO START?</h3>
             <h3 class = "featuredTextSubtitle" style = "font-size: 20px; margin-top: 30px;">TAKE OUR QUIZ: FIND YOUR STYLE + YOUR BEST STYLIST MATCH!</h3>
-
+            <div style = "text-align: center; padding-top: 30px; margin-bottom: 0px;">
+                <button class = "featuredQuizButton"> START QUIZ</button>
+            </div>
         </div>
+
+        <div class = "padding_larger"></div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
