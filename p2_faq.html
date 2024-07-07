@@ -179,6 +179,7 @@
             align-items: center;
             padding: 10px;
             background-color: rgb(15, 15, 77);
+            
         }
 
         .icons {
@@ -393,6 +394,18 @@
                 transform: translateY(0);
             }
         }
+
+        /*----------------------------------------CONTACT INFO------------------------------------*/
+        .featuredBox{
+            width: 90%;
+            border-style: solid;
+            height: 350PX;
+            margin:auto;
+            align-items: center;
+            border-color: #555;
+            margin-top: 30px;
+            
+        }
     </style>
 </head>
 
@@ -480,23 +493,21 @@
 
         <div class = "padding_larger"></div>
 
-
-        <div class="container" style = "height: 50px;">
+        <div class="container" style = "padding-bottom: 50px;">
             <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="TYPE HERE TO SEARCH FOR ANSWERS" style = "color:rgb(15, 15, 77);">
             <ul id='list'>
-                <li class="animals"><span>Q: HOW DO I BOOK A SERVICE? </span> <span>A: BY FILLING OUT THE FORM IN OUR "BOOK A SERVICE" TAB!</span></li>
-                <li class="animals">Q: WHAT ARE YOUR HOURS OF OPERATION? A: MONDAY-SUNDAY FROM 8:00AM-4:00PM</li>
-                <li class="animals">Elephant</li>
-                <li class="animals">Fish</li>
-                <li class="animals">Gorilla</li>
-                <li class="animals">Monkey</li>
-                <li class="animals">Turtle</li>
-                <li class="animals">Whale</li>
-                <li class="animals">Alligator</li>
-                <li class="animals">Donkey</li>
-                <li class="animals">Horse</li>
+                <li class="animals"> <span><b>Q:</b> HOW DO I BOOK A SERVICE? </span> <span style = "font-size: 20px;"><b>A:</b> BY FILLING OUT THE FORM IN OUR "BOOK A SERVICE" TAB!</span></li>
+                <li class="animals"> <span><b>Q:</b> WHAT ARE YOUR HOURS OF OPERATION? </span> <span style = "font-size: 20px;"><b>A:</b> MONDAY-SUNDAY FROM 8:00AM-4:00PM</span></li>
+                <li class="animals"><span><b>Q:</b> WHERE CAN I FIND MORE INFO ON THE STYLISTS?</span> <span style = "font-size: 20px;"><b>A:</b> BY CHECKING OUT OUR "STYLISTS" AND PORTFOLIOS" PAGE</span></li>
+                <li class="animals"><span><b>Q:</b> HOW MANY STYLISTS ARE ON YOUR TEAM?</span> <span style = "font-size: 20px;"><b>A:</b> WE CURRENTLY HAVE 3 STYLISTS ON OUR TEAM</span></li>
+                <li class="animals"><span><b>Q:</b> HOW LONG DOES A CONSULTATION TAKE</span> <span style = "font-size: 20px"><b>A:</b> TIMING VARIES BASED ON THE CLIENT'S NEEDS, THOUGH CONSULTATIONS ARE USUALLY ABOUT AN HOUR LONG!</span></li>
+                <li class="animals"><span><b>Q:</b> HOW DO I GET IN CONTACT WITH A TEAM MEMBER</span> <span style = "font-size: 20px;"><b>A:</b> FOR ANY INQURIIES OR COMPLAINTS, YOU CAN CONTACT US BY EMAIL AT newmoon@abc.com, OR BY PHONE (FROM 8AM-4PM MONDAY-SUNDAY) AT 123-555-4567</span></li>
             </ul>
         </div>
+
+        <div class = "padding_larger"></div>
+        <div class = "padding_larger"></div>
+        
 
         <script>
             function search_animal() {
