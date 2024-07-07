@@ -2,3 +2,4 @@
 - https://codepen.io/vedadesigns/pen/GPxYZg
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_equal_width
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_button_on_image
+- https://getbootstrap.com/docs/4.0/components/card/ 

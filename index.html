@@ -260,7 +260,7 @@
         float: left;
         color: rgb(0, 0, 0);
         text-decoration: none;
-        font-size: 17px;
+        font-size: 20px;
         width: 25%; /* Four links of equal widths */
         text-align: center;
         font-family: "Playfair Display";
@@ -395,6 +395,28 @@
         background-color: #fdfdfd;
         }
 
+        /*-------------------------------RECENT LOOKS---------------------------------*/
+
+        .recentLooksButton{
+            color: black;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            margin: auto;
+            font-family:"Playfair Display";
+            font-size: 20px;
+
+            background-color: rgb(211, 229, 255);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            width: 80%;
+        }
+
+        .recentLooksButton:hover {
+        background-color: #fdfdfd;
+        }
+
     </style>
     
     
@@ -502,6 +524,41 @@
         </div>
 
         <div class = "padding_larger"></div>
+        <div class = "padding_larger"></div>
+
+        <!----------------------------RECENT LOOKS------------------------------>
+        <h2 class ="featuredTextTitle">RECENT LOOKS</h2>
+
+        <div class = "padding_larger"></div>
+        
+        <div style = "width: 80%; text-align: center; margin: auto">
+            <div class="card-group">
+                <div class="card" style = "padding: 25px">
+                  <img src="images/hs2.jpeg" class="card-img-top" alt="stylist 1" style = "object-fit: fill; height: 475px">
+                  <div class="card-body">
+                    <h5 class="featuredTextSubtitle">STYLIST: JACKIE</h5>
+                  </div>
+                    <button class = "recentLooksButton">PORTFOLIO</button>
+                </div>
+
+                <div class="card" style = "padding: 25px">
+                    <img src="images/hs1.jpeg" class="card-img-top" alt="stylist 2" style = "object-fit: fill; height: 475px">
+                  <div class="card-body" style = "width: 100%">
+                    <h5 class="featuredTextSubtitle" style = "font-size: 30px;">STYLIST: SOPHIA</h5>
+                  </div>
+                  <button class = "recentLooksButton">PORTFOLIO</button>
+                </div>
+
+                <div class="card" style = "padding: 25px">
+                    <img src="images/h3.jpeg" class="card-img-top" alt="stylist 3" style = "object-fit: fill; height: 475px">
+                  <div class="card-body">
+                    <h5 class="featuredTextSubtitle">STYLIST: JAKE</h5>
+                  </div>
+                    <button class = "recentLooksButton">PORTFOLIO</button>
+                </div>
+              </div>
+        </div>
+
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
