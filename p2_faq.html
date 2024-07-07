@@ -334,6 +334,11 @@
             align-items: center;
             margin: auto;
             width: 90%;
+            height: 50px;
+
+            color:rgb(15, 15, 77);
+
+
         }
 
         #searchbar {
@@ -342,12 +347,24 @@
             border-radius: 5px;
             width: 90%;
             box-sizing: border-box;
+
+            color:rgb(15, 15, 77);
+            font-size: 20px;
         }
 
         #list {
             list-style: none;
             padding: 0;
             margin: 0;
+            height: 60px;
+            width: 90%;
+            padding-left: 10px;
+
+            font-size: 20px;
+            color:rgb(15, 15, 77);
+
+            text-align: left;
+
         }
 
         .animals {
@@ -460,11 +477,11 @@
         <div class = "padding_larger"></div>
 
 
-        <div class="container">
-            <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search animals..">
+        <div class="container" style = "height: 50px;">
+            <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="TYPE HERE TO SEARCH FOR ANSWERS" style = "color:rgb(15, 15, 77);">
             <ul id='list'>
-                <li class="animals">Cat</li>
-                <li class="animals">Dog</li>
+                <li class="animals"><span>Q: HOW DO I BOOK A SERVICE? </span> <span>A: BY FILLING OUT THE FORM IN OUR "BOOK A SERVICE" TAB!</span></li>
+                <li class="animals">Q: WHAT ARE YOUR HOURS OF OPERATION? A: MONDAY-SUNDAY FROM 8:00AM-4:00PM</li>
                 <li class="animals">Elephant</li>
                 <li class="animals">Fish</li>
                 <li class="animals">Gorilla</li>
